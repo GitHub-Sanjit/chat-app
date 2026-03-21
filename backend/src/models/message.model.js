@@ -7,7 +7,7 @@ const messageSchema = new mongoose.Schema(
       ref: "User",
       required: true,
     },
-    receverId: {
+    receiverId: {
       type: mongoose.Schema.ObjectId,
       ref: "User",
       required: true,
